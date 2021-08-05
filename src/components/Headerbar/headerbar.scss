@@ -13,5 +13,78 @@
         padding: 10px 30px;
         display: flex;
         align-items: center;
+        justify-content: space-between;
+
+        .left{
+            display: flex;
+            align-items: center;
+            .logo{
+                font-size: 40px;
+                font-weight: 700;
+                text-decoration: none;
+                color: inherit;
+                margin-right: 10px;
+            }
+            .itemContainer{
+                display: flex;
+                align-items:center;
+
+                .icon{
+                    font-size: 36px;
+                }
+            }
+
+
+        }
+
+
+
+        .right{
+            display: flex;
+
+            .organizer{
+                display: flex;
+                margin-right: 30px;
+                .link{
+                    display: flex;
+                    margin-left: 30px;
+                    align-items: center;
+                    visibility: hidden;
+                    text-decoration: none;
+                    color: inherit;
+                    &.show{
+                        visibility:visible;
+                    }
+                }
+            }
+            
+
+            .hamburger{
+                width: 32px;
+                height: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+
+                span{
+                    width: 100%;
+                    height: 3px;
+                    background-color:white;
+
+                }
+            }
+        }
+    }
+    &.active{
+        background-color: black;
+    
+        // .hamburger{
+        //     span{
+        //         &:first-child{
+                    
+        //         }
+        //     }
+        // }
     }
 }
