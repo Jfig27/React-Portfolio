@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     z-index:2;
+    transition: all 1s ease;
 
     .wrapper{
         padding: 10px 30px;
@@ -51,9 +52,15 @@
                     align-items: center;
                     visibility: hidden;
                     text-decoration: none;
-                    color: inherit;
+                    color: $mainColor;
+                    transition: all .75s ease;
                     &.show{
                         visibility:visible;
+                        color:white;
+                        transition: all 1s ease;
+                    }
+                    &:hover{
+                        color: aqua;
                     }
                 }
             }
