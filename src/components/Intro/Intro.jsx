@@ -15,7 +15,7 @@ export default function Intro() {
                     <h1>Joshua Figuereo</h1>
                     <h3>Web Developer</h3>
                 </div>
-                <a href="#portfolio">
+                <a href="#works">
                     <ArrowDownwardIcon style={{fontSize: 90}}/>
                 </a>
             </div>

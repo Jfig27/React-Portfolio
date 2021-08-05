@@ -1,10 +1,10 @@
 .intro {
-    background-color: lightpink;
+    background-color: darkgray;
     display: flex;
 
     .left{
         flex: 0.4;
-        background-color: yellow;
+        background-color: rgb(53, 53, 53);
         overflow: hidden;
 
         .imgContainer{
@@ -27,8 +27,9 @@
 
     .right{
         flex:0.6;
-        background-color: red;
+        background-color: rgb(53, 53, 53);
         position: relative;
+        color:white;
 
         .wrapper{
             width: 100%;
@@ -41,6 +42,7 @@
             h1{
                 font-size: 60px;
                 margin: 10px 0;
+                color: cyan;
             }
             h2 {
                 font-size: 35px;
@@ -53,7 +55,7 @@
             display: flex;
             position: absolute;
             bottom: 10px;
-            color: black;
+            color: white;
             left:50%;
             transition: all .5s ease;
 

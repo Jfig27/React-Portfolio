@@ -18,8 +18,8 @@ export default function Headerbar({menuOpen, setMenuOpen}) {
                 <div className="right">
 
                     <div className="organizer">
+                        <a href="#works"className={"link " + (menuOpen && "show")}>About Me</a>
                         <a href="#portfolio"className={"link " + (menuOpen && "show")}>Portfolio</a>
-                        <a href="#works"className={"link " + (menuOpen && "show")}>Works</a>
                         <a href="#contact" className={"link " + (menuOpen && "show")}>Contact</a>
                     </div>
 
