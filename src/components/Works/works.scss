@@ -1,26 +1,49 @@
+@import "../../global.scss";
+
 .works{
-    background-color: lightcoral;
+    background-color: $bg-color;
     display: flex;
     flex-direction: column;
+    width: auto;
+
     .top{
         display: flex;
         margin-left: 10%;
+        padding-top: 10%;
+        
         h1{
             font-size: 6rem;
-            padding-top: 20%;
+            color:hotpink;
+            @include mobile{
+                height: 100%;
+            }
         }
     }
     .bottom{
         display: flex;
+        @include mobile{
+            // height: 100%;
+            justify-content: flex-start;
+        }
+        
         .textContainer{
             width: 600px;
             height:200px;
             display: flex;
             margin-left: 50%;
             margin-top: 20%;
+            @include mobile{
+                height: auto;
+                margin-left: 20%;
+            }
+            
             h3{
                 display: flex;
                 flex-wrap: wrap;
+                color: white;
+                @include mobile{
+                    height: auto;
+                }
             }
         }
         

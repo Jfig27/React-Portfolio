@@ -9,9 +9,9 @@ export default function Works() {
             <div className="bottom">
                 <div className="textContainer">
                     <h3>ldlldslfdsfds fdshfdsijfhd sfhdshfdsjf hdjfhdsjfhsdjfhdsjfhd sjfhdsjifhdsjifdsjf hdsjfhdsjhf sdj
-                        fhdsjifhdsjhfdjfhdsjfhfffffffffff fffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                        ffffffffffffffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffffffffffffffffff
-                        fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</h3>
+                        fhdsjifh dsjhfdjfh dsjfhfff ffffffff ffffffffff fffffffffffff ffffffffffffffffffffffffffffffffff
+                        fffffffff fffffffffffff ffffffffffff ffffffffff fffffffffff fffffffffff fffffffffff fffffff ffffff
+                        fffffffffffff fffffffffffffff ffffffff ffffffff fffffffffffff ffffffffffff</h3>
                 </div>
                 
             </div>
